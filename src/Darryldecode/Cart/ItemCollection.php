@@ -84,6 +84,22 @@ class ItemCollection extends Collection
     }
 
     /**
+     * check if item has specific condition name
+     *
+     * @return bool
+     */
+    public function hasCondition($name)
+    {
+        foreach ($this->getConditions() as $condition){
+            // if condition as same value of $name we return true
+            if($condition->getName() == $name){
+                return true;
+            }
+        }
+        return false;
+    }
+    
+    /**
      * check if item has conditions
      *
      * @return mixed|null

